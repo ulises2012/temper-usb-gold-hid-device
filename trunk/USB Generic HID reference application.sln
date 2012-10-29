@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USB Generic HID reference application 3_0", "USB Generic HID reference application\USB Generic HID reference application 3_0.csproj", "{83299ADA-8484-4640-8CEF-C88B71A135C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "usbGenericHidCommunications_3_0_0_0", "usbGenericHidCommunications\usbGenericHidCommunications_3_0_0_0.csproj", "{C999B884-6EC3-4AB6-AEF5-AD4D7E1E4FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperGoldConsole", "TemperGoldConsole\TemperGoldConsole.csproj", "{4F8B4204-D434-46B7-A967-A9A7DBD19C6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83299ADA-8484-4640-8CEF-C88B71A135C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83299ADA-8484-4640-8CEF-C88B71A135C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83299ADA-8484-4640-8CEF-C88B71A135C7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{83299ADA-8484-4640-8CEF-C88B71A135C7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{83299ADA-8484-4640-8CEF-C88B71A135C7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{83299ADA-8484-4640-8CEF-C88B71A135C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83299ADA-8484-4640-8CEF-C88B71A135C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83299ADA-8484-4640-8CEF-C88B71A135C7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{83299ADA-8484-4640-8CEF-C88B71A135C7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{83299ADA-8484-4640-8CEF-C88B71A135C7}.Release|x86.ActiveCfg = Release|Any CPU
+		{C999B884-6EC3-4AB6-AEF5-AD4D7E1E4FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C999B884-6EC3-4AB6-AEF5-AD4D7E1E4FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C999B884-6EC3-4AB6-AEF5-AD4D7E1E4FA9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C999B884-6EC3-4AB6-AEF5-AD4D7E1E4FA9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C999B884-6EC3-4AB6-AEF5-AD4D7E1E4FA9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C999B884-6EC3-4AB6-AEF5-AD4D7E1E4FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C999B884-6EC3-4AB6-AEF5-AD4D7E1E4FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C999B884-6EC3-4AB6-AEF5-AD4D7E1E4FA9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C999B884-6EC3-4AB6-AEF5-AD4D7E1E4FA9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C999B884-6EC3-4AB6-AEF5-AD4D7E1E4FA9}.Release|x86.ActiveCfg = Release|Any CPU
+		{4F8B4204-D434-46B7-A967-A9A7DBD19C6B}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{4F8B4204-D434-46B7-A967-A9A7DBD19C6B}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{4F8B4204-D434-46B7-A967-A9A7DBD19C6B}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{4F8B4204-D434-46B7-A967-A9A7DBD19C6B}.Debug|x86.ActiveCfg = Debug|x86
+		{4F8B4204-D434-46B7-A967-A9A7DBD19C6B}.Debug|x86.Build.0 = Debug|x86
+		{4F8B4204-D434-46B7-A967-A9A7DBD19C6B}.Release|Any CPU.ActiveCfg = Release|x86
+		{4F8B4204-D434-46B7-A967-A9A7DBD19C6B}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{4F8B4204-D434-46B7-A967-A9A7DBD19C6B}.Release|Mixed Platforms.Build.0 = Release|x86
+		{4F8B4204-D434-46B7-A967-A9A7DBD19C6B}.Release|x86.ActiveCfg = Release|x86
+		{4F8B4204-D434-46B7-A967-A9A7DBD19C6B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
