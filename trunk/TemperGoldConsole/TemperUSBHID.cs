@@ -34,14 +34,21 @@ namespace TemperGoldConsole
             return devices.Count;
         }
 
-        public double GetTemperatureDegC()
+        public double? GetTemperatureDegC()
         {
             Byte[] inputBuffer = new Byte[9];
             bool success = writeRawReportToDevice(commandReadTemper);
-            if (success) readSingleReportFromDevice(ref inputBuffer);
-            int reading = inputBuffer[3] *16 + inputBuffer[4]/16;
-            if ((reading & 0x800) !=0) reading = reading | 0xF000;
-            return (Single)reading * 0.0625;
+            if (success)
+            {
+                readSingleReportFromDevice(ref inputBuffer);
+                int reading = inputBuffer[3] * 16 + inputBuffer[4] / 16;
+                if ((reading & 0x800) != 0) reading = reading | 0xF000;
+                return (Single)reading * 0.0625;
+            }
+            else
+            {
+                return null;
+            }
         }
 
         public string GetVersion()

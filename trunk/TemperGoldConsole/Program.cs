@@ -10,10 +10,17 @@ namespace TemperGoldConsole
         static void Main(string[] args)
         {
             var x = new TemperUSBHID(TemperUSBHID.TEMPerGoldVID,TemperUSBHID.TEMPerGoldPID);
-            x.findTargetDevice(1);
-            //var z = x.getNumTempers();
-            var y = x.GetTemperatureDegC();
-            y = y + 1;// z;
+            string retval = "";
+            for(int i = 0;i<10;i++)
+            {
+                x.findTargetDevice(i);
+                double? temp = x.GetTemperatureDegC();
+                if (temp != null)
+                {
+                    retval += temp.ToString() + ",";
+                }
+            }
+            Console.WriteLine(retval);
         }
     }
 }
